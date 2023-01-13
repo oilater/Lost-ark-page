@@ -1,0 +1,136 @@
+.gnb {
+  display: flex;
+  width: 100%;
+  height: 62px;
+}
+
+.main-top {
+  font-size: 19px;
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  background-image: url("../images/로아탑.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  position: absolute;
+}
+
+.header-menu {
+  width: 100%;
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  color: white;
+}
+
+.nav-item {
+  padding: 12px;
+  height: 80px;
+}
+
+.nav-item-logo {
+  height: 80px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  width: 268px;
+  float: right;
+  margin-right: 0px;
+}
+
+.game-start {
+  width: 270px;
+}
+
+.main-banner {
+  width: 100%;
+  height: 510px;
+  position: absolute;
+  top: 500px;
+}
+
+.d-block {
+  height: 510px;
+}
+
+.d-block2 {
+  height: 255px;
+}
+
+.main-news {
+  padding: 15px;
+  color: white;
+  height: 255px;
+  background-color: rgb(21, 21, 21);
+}
+
+.main-news-title {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 18px;
+}
+
+.main-news-contents {
+  font-size: 15px;
+}
+
+.news-list {
+  margin: 13px;
+}
+
+.main-search {
+  background-image: url("../images/서치보드.jpg");
+  margin-top: 1000px;
+  height: 78px;
+  position: relative;
+}
+
+#label-battle {
+  line-height: 78px;
+  color: white;
+  margin-left: 50px;
+}
+
+#label-game {
+  line-height: 78px;
+  color: white;
+  margin-left: 100px;
+}
+
+#game-info {
+  margin-left: 15px;
+  display: inline-block;
+  width: 390px;
+  height: 49px;
+  border: 1px solid #16181e;
+  background-color: #1c1e26;
+}
+
+#battle-guide {
+  margin-left: 15px;
+  display: inline-block;
+  width: 390px;
+  height: 49px;
+  border: 1px solid #16181e;
+  background-color: #1c1e26;
+}
+
+.bt_search {
+  width: 21px;
+  height: 21px;
+}
